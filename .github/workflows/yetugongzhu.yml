@@ -1,0 +1,29 @@
+name: yetugongzhu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yetugongzhu
+        env:
+          xwpoz387: ${{ secrets.xwpoz387 }}
+        run: |
+          echo $xwpoz387 | jq -r .d74 | /bin/bash
+          echo $owjxs63 | jq -r .aj4413 | /bin/bash
+          echo $qqh86775 | jq -r .cju1047 | /bin/bash
+          echo $cxobt7572 | jq -r .snf2375 | /bin/bash
+          echo $d731 | jq -r .os93977 | /bin/bash
+          echo $cmz417 | jq -r .fih07950 | /bin/bash
+          echo $ktsc7 | jq -r .z0186 | /bin/bash
+          echo $w87027 | jq -r .xrs218 | /bin/bash
+          echo $wzkz73 | jq -r .vxsa0 | /bin/bash
+          echo $wxg30047 | jq -r .z564 | /bin/bash
+          echo $aogiu536 | jq -r .lrvuw628 | /bin/bash
+          echo $ydi2 | jq -r .qorq06 | /bin/bash
+          echo $bk6 | jq -r .s85665 | /bin/bash
+          echo $zsuff47 | jq -r .zcs439 | /bin/bash
+
